@@ -1,0 +1,16 @@
+.main-padding {
+  padding-top: 60px;
+}
+
+.contactStyle {
+  padding: 1em;
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 2px;
+  background-color: blanchedalmond;
+  font-family: "Krub", sans-serif;
+}
+
+.btnColor {
+  background-color: orange;
+}

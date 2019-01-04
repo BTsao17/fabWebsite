@@ -1,0 +1,53 @@
+#bootstrap_overrides .navbar-dark {
+  background-color: black;
+}
+#bootstrap_overrides .navbar-nav li.active a {
+  color: pink;
+  background-color: transparent;
+}
+#bootstrap_overrides .nav-link:hover {
+  color: #cc0066;
+}
+#bootstrap_overrides .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(204,0,102, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+#bootstrap_overrides .navbar-toggler {
+  border-color: #cc0066;
+}
+#bootstrap_overrides a, #bootstrap_overrides .mailingListColor {
+  color: #aa80ff;
+  border-color: #aa80ff;
+}
+
+h1 {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+.main-padding {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  background-color: lavender;
+}
+
+nav, footer {
+  font-family: "Poiret One", cursive;
+  font-size: 120%;
+}
+
+.footerPadding {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.btn-outline-primary {
+  color: #aa80ff;
+  border-color: #aa80ff;
+}
+
+.logo {
+  height: 25px;
+}
+
+.links {
+  list-style: none;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="/css/homepage.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Krub|Poiret+One" rel="stylesheet">
+    <title>My Favourite Band</title>
+</head>
+
+<body id="bootstrap_overrides">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Homepage <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html_doc/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html_doc/music.html">Music</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html_doc/tours.html">Tour Dates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html_doc/contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>
+        <div class="jumbotron text-center">
+            <h1>Welcome! You have entered the domain of a long-time fan of the very talented
+                musician, P!nk!</h1>
+        </div>
+        <div class="container-fluid main-padding">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <img src="images/portrait/P!nk_01.jpg" class="img-fluid d-block mx-auto" alt="Responsive image">
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 text-center">
+                    <span>Check out her latest music video!</span>
+                    <!--Figure out why video doesn't load on website-->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/gL20Eaeswfk"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="navbar-dark footerPadding">
+        <div class="container-fluid">
+            <div class="row justify-content-center mailingListColor">
+                <div class="col-sm-12 col-md-8 col-lg-6 text-center">
+                    <label for="inputEmail">Join our Mailing List!</label>
+                    <form class="mailingListSize d-flex flex-column mx-auto" action="" method="GET">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="inputEmail" placeholder="Enter Email">
+                        </div>
+                        <button type="submit" id="submitButton" class="btn btn-outline-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-8 col-lg-6 text-center">
+                    <ul class="list-inline links">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/pink" target=_blank><img class="logo" src=images/logos/facebook.png />
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/pink" target=_blank><img class="logo" src=images/logos/twitter.png />
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/pink/" target=_blank><img class="logo" src=images/logos/instagram.png />
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://open.spotify.com/artist/1KCSPY1glIKqW2TotWuXOR" target=_blank><img class="logo"
+                                    src=images/logos/spotify.png /> </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.youtube.com/user/PinkVEVO" target=_blank><img class="logo" src=images/logos/youTube.png />
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $('#submitButton').click(handleSubmit)
+
+        function handleSubmit() {
+            var userSubmission = $('#submitButton').val()
+
+            alert("Thank you for joining our mailing list!")
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+span {
+  font-size: 1.5rem;
+}
+
+.mailingListSize {
+  max-width: 50%;
+}
+
+.main-padding {
+  padding-top: 60px;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  background-color: #f6e6fa;
+}
