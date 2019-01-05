@@ -29,7 +29,7 @@ $navbar-font: 'Poiret One', cursive;
         border-color: $navbar-collapse-btn-color;
     }
 
-    a, .mailingListColor {
+    .nav-link {
         color: $navbar-font-color;
         border-color: $navbar-font-color;
     }
@@ -53,18 +53,25 @@ nav, footer {
 
 .footerPadding {
     padding-top: 20px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
-.btn-outline-primary {
+.btn-outline-primary, .mailingListColor {
     color: $navbar-font-color;
     border-color: $navbar-font-color;
 }
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color:$navbar-font-color;
+    border-color:$navbar-font-color;
+  }
 
 .logo {
     height: 25px;
 }
 
 .links {
-    list-style: none;
-}
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }

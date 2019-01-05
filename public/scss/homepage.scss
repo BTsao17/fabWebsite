@@ -1,5 +1,8 @@
+$text-font: 'Krub', sans-serif;
+
 span {
     font-size: 1.5rem;
+    font-family: $text-font;
 }
 
 .mailingListSize {
@@ -14,3 +17,8 @@ span {
     margin-bottom: 0;
     background-color: rgb(246, 230, 250);
 }
+
+.video-padding {
+    padding-top: 11px;
+    padding-bottom: 6px;
+  }

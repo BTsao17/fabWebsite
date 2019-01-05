@@ -14,7 +14,7 @@
 #bootstrap_overrides .navbar-toggler {
   border-color: #cc0066;
 }
-#bootstrap_overrides a, #bootstrap_overrides .mailingListColor {
+#bootstrap_overrides .nav-link {
   color: #aa80ff;
   border-color: #aa80ff;
 }
@@ -36,11 +36,17 @@ nav, footer {
 
 .footerPadding {
   padding-top: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
 }
 
-.btn-outline-primary {
+.btn-outline-primary, .mailingListColor {
   color: #aa80ff;
+  border-color: #aa80ff;
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: #aa80ff;
   border-color: #aa80ff;
 }
 
@@ -49,5 +55,6 @@ nav, footer {
 }
 
 .links {
-  list-style: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
