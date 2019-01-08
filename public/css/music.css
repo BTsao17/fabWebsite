@@ -1,9 +1,3 @@
-.music {
-  padding-top: 20px;
-  padding-bottom: 60px;
-  background-color: lavender;
-}
-
 .albumGrid {
   padding-left: 10%;
   padding-right: 10%;
@@ -21,4 +15,32 @@
 .spotifyGrid {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+.overlay {
+  position: absolute;
+  top: 16px;
+  bottom: 16px;
+  left: 16px;
+  right: 16px;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+}
+
+.album:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  font-family: "Gloria Hallelujah", cursive;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
