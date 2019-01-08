@@ -36,14 +36,17 @@ $navbar-font: 'Poiret One', cursive;
 
 }
 
+body {
+    background-color: lavender;
+}
+
 h1 {
     font-family: $title-font;
 }
 
 .main-padding {
     padding-top: 20px;
-    padding-bottom: 60px;
-    background-color: lavender;
+    padding-bottom: 10vh;
 }
 
 nav, footer {
@@ -51,7 +54,7 @@ nav, footer {
     font-size: 120%;
 }
 
-.footerPadding {
+.footer-padding {
     padding-top: 20px;
     padding-bottom: 20px;
 }

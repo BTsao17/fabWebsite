@@ -17,6 +17,11 @@
   padding-right: 10%;
 }
 
+.spotify-padding {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .overlay {
   position: absolute;
   top: 16px;
