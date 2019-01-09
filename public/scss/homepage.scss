@@ -1,8 +1,10 @@
-$text-font: 'Krub', sans-serif;
+$text-font: 'Krub',
+sans-serif;
 
-span {
-    font-size: 1.5rem;
+.video-title {
+    font-size: 1.8rem;
     font-family: $text-font;
+    margin-bottom: 7px;
 }
 
 .mailingListSize {
@@ -18,7 +20,11 @@ span {
     background-color: rgb(246, 230, 250);
 }
 
-.video-padding {
-    padding-top: 11px;
-    padding-bottom: 6px;
-  }
+.video-margin {
+    margin-top: 7px;
+}
+
+.image-resize {
+    width: 100%;
+    object-fit: cover;
+}
