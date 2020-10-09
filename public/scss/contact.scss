@@ -8,14 +8,14 @@ $text-font: 'Krub', sans-serif;
 .contactStyle {
     padding: 1em;
     border-style: solid;
-    border-color: lightgrey;
+    border-color: rgb(211,211,211);
     border-width: 2px;
-    background-color: blanchedalmond;
+    background-color: rgb(255,235,205);
     font-family: $text-font;
 }
 
 .btnColor {
-    background-color: orange;
+    background-color: rgb(255,165,0);
 }
 
 textarea {
